@@ -1,0 +1,76 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  max-width: 100%; /* Asegurar que no exceda el ancho de la ventana */
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.instructions {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.dataDisplay {
+  margin-top: 1rem;
+  text-align: left;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.dataDisplay h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.dataDisplay p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.carContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.heightFunctionContainer {
+  width: 100%;
+  min-width: 800px; /* Ancho mínimo para asegurar visibilidad */
+  max-width: 1600px; /* Ancho máximo para pantallas grandes */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
