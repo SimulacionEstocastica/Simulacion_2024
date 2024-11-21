@@ -1,0 +1,5 @@
+.DS_Store
+.ipynb
+figures/
+BACKEND/__pycache__/
+venv/

@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: visible; /* Cambiado de hidden a visible para permitir que el contenido se desborde */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.scaleControl {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scaleLabel {
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.scaleInput {
+  width: 150px;
+  margin: 0 10px;
+}
+
+.scaleValue {
+  color: #666;
+  min-width: 30px;
+  text-align: right;
+}
