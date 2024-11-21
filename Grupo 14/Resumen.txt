@@ -1,0 +1,7 @@
+El presente proyecto propone un modelo para simular caminatas aleatorias miopes. Para esto se usará el cálculo de casos vía determinante en conjunto con conteo de casos de colisiones.
+
+La primera parte va a consistir en estudiar el problema y modelar este problema dado un T y cantidad de cadenas arbitrarias. Se va a mostrar también el método de conteo de casos y colisiones. 
+
+Para la segunda parte vamos a centrarnos en el caso de 2 cadenas. El punto de interés de este caso es su simetría y como esta se puede usar para optimizaciones que mejoran por un factor de más 100 veces.\\
+
+Finalmente usaremos estos 2 algoritmos para realizar simulaciones variadas y estudiar el comportamiento de la cadena máxima del grupo y el comportamiento del valor de la distancia entre las cadenas.\\ 
