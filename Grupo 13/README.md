@@ -6,8 +6,6 @@
 
 Proyecto final del ramo Simulación Estocástica - Teoría y Laboratorio de la FCFM, versión Primavera 2024
 
-Este projecto se encuentra en sus etapas iniciales.
-
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
