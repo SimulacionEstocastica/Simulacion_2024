@@ -1,0 +1,57 @@
+.switchContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.switch {
+  height: 44px;
+  width: 80px;
+  background-color: #4caf50;
+  border-radius: 25px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  transition: left 0.3s ease-in-out;
+}
+
+.switch.center {
+  left: 85px;
+}
+
+.switch.right {
+  left: 167px;
+}
+
+.labels {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.label.active {
+  color: white;
+}
+
+.input {
+  display: none;
+}
