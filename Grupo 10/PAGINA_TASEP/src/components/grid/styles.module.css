@@ -1,0 +1,41 @@
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.gridWrapper {
+  display: inline-block;
+  outline: none;
+  position: relative;
+}
+
+.grid {
+  display: inline-block;
+  background-color: #f0f0f0;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+}
+
+.cell.clicked {
+  background-color: #000;
+}
+
+.cell.hoverHorizontal,
+.cell.hoverVertical {
+  background-color: #808080;
+}
+
+.clicked.hoverHorizontal,
+.clicked.hoverVertical {
+  background-color: #404040;
+}
